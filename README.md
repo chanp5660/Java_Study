@@ -1,4 +1,4 @@
-# Java_Study 
+# Java_Study_1
 ##### 목적 : Head First Java, 대학교 수업, 구글 검색을 통해 공부 후 필요할 때 다시 볼 수 있게 정리 한 것
 
 ### 자바 가상 기계
