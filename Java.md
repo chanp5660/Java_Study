@@ -24,3 +24,15 @@
 
 멀티 쓰레드는 멀티 프로세스에 비해 상당한 이점을 가진다.
 - 컨텍스트 스위칭 시에 공유 메모리 만큼의 시간(자원) 손실이 줄어든다. : 프로세스 간의 
+
+
+### JVM 이란? [참조 사이트](https://medium.com/@lazysoul/jvm-%EC%9D%B4%EB%9E%80-c142b01571f2)
+Java Virtual Machine의 줄임말이며 Java Byte Code를 OS에 맞게 해석 해주는 역할을 합니다.
+Java compiler는 .java 파일을 .class라는 Java Byte code로 변환시켜줍니다.
+또 Byte Code는 기계어가 아니기 때문에 OS에서 바로 실행되지 않습니다.
+이때 JVM은 OS가 ByteCode를 이해할 수 있도록 해석 해줍니다.
+하지만 JVM의 해석을 거치기 떄문에 c언어 같은 네이티브 언어에 비해 속도가 느렸지만 JIT(Just In Time)컴파일러를 구현해 이점을 극복했습니다.
+Byte Code는 JVM위에서 OS상관없이 실행된다.
+이런 점이 Java의 가장 큰 장점이라고 할수 있습니다. OS에 종속적이지 않고 Java파일 하나만 만들면 어느 디바이스든 JVM 위에서 실행 할 수 있습니다.
+JVM은 크게 Class Loader, Runtiome Data Areas, Excution Engine 3가지로 구성되어 있습니다. 
+
