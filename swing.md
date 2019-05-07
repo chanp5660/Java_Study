@@ -1,6 +1,6 @@
 # How to use Swing in java?
 
-참조사이트(https://www.javatpoint.com/java-jbutton)
+참조사이트(https://www.javatpoint.com/java-swing)
 
 # 프레임 관련
 ```java
