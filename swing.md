@@ -56,3 +56,24 @@ public static void main(String[] args) {
 
 ```
 ### 프레임 상속해서 만들기
+```java
+import javax.swing.*;  
+//JFrame상속
+public class SwingExample extends JFrame{//inheriting JFrame  
+	//SwingExample 객체 생성하면 JFrame도 포함 되어 있는 것.
+	JFrame f;  
+	SwingExample(){  
+	JButton b=new JButton("click");//create button  
+	b.setBounds(130,100,100, 40);  
+	          
+	add(b);//adding button on frame  
+	setSize(400,500);  
+	setLayout(null);  
+	setVisible(true);  
+	}  
+	public static void main(String[] args) {  
+		new SwingExample();  
+	}
+}  
+```
+![프레임 결과](https://user-images.githubusercontent.com/46266247/57265147-1ed04a00-70b1-11e9-9b80-5493e7ed7017.PNG)
