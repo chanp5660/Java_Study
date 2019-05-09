@@ -1,4 +1,4 @@
-# GUI 만들기
+# GUI 만들기 (Swing 사용)
 
 참조 [Head First Java: 뇌 회로를 자극하는 자바 학습법(개정판)](http://www.hanbit.co.kr/store/books/look.php?p_code=B9738765259)
 
@@ -64,7 +64,7 @@ public class SimpleGui2 implements ActionListener{
 }
 ```
 
-## GUI에 뭔가를 집어넣는 세가지 방법
+## 2D원 그리기
 
 ```java
 
