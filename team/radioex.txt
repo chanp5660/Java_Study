@@ -22,7 +22,7 @@ public class radioex {
 		bg.add(button2);
 		bg.add(button3);
 		
-		frame.add(new JLabel("Á¡¼ö"));
+		frame.add(new JLabel("ÃÂ¡Â¼Ã¶"));
 		frame.add(button1);
 		frame.add(button2);
 		frame.add(button3);
